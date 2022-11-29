@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-void sexoPersona()
+char sexoPersona()
 {
 int Sexo;
 
@@ -11,19 +11,19 @@ do{
 
     switch (Sexo)
     {
-    case 1:'m'||'M';
+    case'M':
     return (Sexo);
         break;
 
-    case 2:'f'||'F';
+    case'F':
     return (Sexo);
         break;
 
-    case 3:'n'||'N';
+    case'N':
     return (Sexo);
         break;
 
-    case 4:'o'||'O';
+    case'O':
        break;        
 
 
